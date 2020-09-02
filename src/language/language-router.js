@@ -100,7 +100,7 @@ languageRouter.post("/guess", jsonBodyParser, async (req, res, next) => {
 
     language.head = list.head.value.id;
 
-    await LanguageService.updateDb(
+    await LanguageService.updateDB(
       req.app.get("db"),
       language,
       list,

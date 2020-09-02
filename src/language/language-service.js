@@ -75,7 +75,7 @@ const LanguageService = {
     return list;
   },
 
-  async updateDb(db, language, list, user_id){
+  async updateDB(db, language, list, user_id){
     let trx = await db.transaction();
     try {
       let currNode = list.head;

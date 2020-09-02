@@ -1,6 +1,35 @@
-# Spaced repetition API!
+#  Aprendendo Português
+By Renata and Minh.
 
-## Local dev setup
+## The Project
+
+## Links
+
+* Live: [Aprendendo Português App]()
+* Aprendendo Português Client: [GitHub]()
+
+## Technology Used
+
+Front-End: _ReactJS | CSS_
+
+Back-End: _NodeJS | ExpressJS_
+
+## API Documentation
+
+| Method | Path               | Purpose                                                        |
+| ------ | ------------------ | -------------------------------------------------------------- |
+| POST   | /api/user          | Register a new user                                            |
+| GET    | /api/language      | Get all the words the user is learning                         |
+| GET    | /api/language/head | Get the guesses the user made                                  |
+| POST   | /api/language/guess| Registers the guess the user made                              |
+| POST   | /api/auth          | Checks the authorization                                       |
+| POST   | /api/auth/token    | Checks for validation on username & password                   |
+
+## Screenshots
+
+![example]()
+
+## To setup your local environment
 
 If using user `dunder-mifflin`:
 
@@ -20,9 +49,9 @@ env MIGRATION_DB_NAME=spaced-repetition-test npm run migrate
 
 And `npm test` should work at this point
 
-## Configuring Postgres
+## Configuring PostgreSQL
 
-For tests involving time to run properly, configure your Postgres database to run in the UTC timezone.
+For tests involving time to run properly, configure your PostgreSQL database to run in the UTC timezone.
 
 1. Locate the `postgresql.conf` file for your Postgres installation.
    1. E.g. for an OS X, Homebrew install: `/usr/local/var/postgres/postgresql.conf`
@@ -41,12 +70,8 @@ timezone = 'UTC'
 
 ## Scripts
 
-Start the application `npm start`
-
-Start nodemon for the application `npm run dev`
-
-Run the tests mode `npm test`
-
-Run the migrations up `npm run migrate`
-
-Run the migrations down `npm run migrate -- 0`
+* Start the application `npm start`
+* Start nodemon for the application `npm run dev`
+* Run the tests mode `npm test`
+* Run the migrations up `npm run migrate`
+* Run the migrations down `npm run migrate -- 0`
