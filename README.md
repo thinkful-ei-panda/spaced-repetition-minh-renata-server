@@ -8,6 +8,7 @@ _Aprendendo Português_ is an app for learning Portuguese using the flashcard sy
 ## Links
 
 * Live: [Aprendendo Português App]()
+* Heroku: [API](https://capstone-spaced-repetition.herokuapp.com/)
 * Aprendendo Português Client: [GitHub](https://github.com/thinkful-ei-panda/spaced-repetition-minh-renata-client)
 
 ## Technology Used
